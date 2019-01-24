@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on The Geek Friend</title>
+    <link>/Blog/post/</link>
+    <description>Recent content in Posts on The Geek Friend</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 23 Jan 2019 15:28:00 +0000</lastBuildDate>
+    
+	<atom:link href="/Blog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prueba - Probando el blog</title>
+      <link>/Blog/post/pruebaprimeraentrada/</link>
+      <pubDate>Wed, 23 Jan 2019 15:28:00 +0000</pubDate>
+      
+      <guid>/Blog/post/pruebaprimeraentrada/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
