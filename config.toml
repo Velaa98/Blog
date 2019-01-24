@@ -1,0 +1,8 @@
+baseURL = "/Blog"
+title = "The Geek Friend"
+author = "José Manuel Vela Fernández"
+paginate = 3
+theme = "arabica"
+
+[params]
+description = "ASIR"
