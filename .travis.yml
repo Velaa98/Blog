@@ -8,8 +8,7 @@ script:
   - mv Blog/config.toml sitio/
 #  - cd sitio/themes && git clone https://github.com/nirocfz/arabica && cd ..
   - cd sitio/themes && git clone https://github.com/vimux/mainroad && cd ..
-  - hugo -t arabica
-  - rm -rf themes/arabica
+  - hugo -t mainroad
 
 deploy:
   provider: pages
