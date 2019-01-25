@@ -1,8 +1,35 @@
 baseURL = "/Blog"
 title = "The Geek Friend"
-author = "José Manuel Vela Fernández"
-paginate = 3
-theme = "arabica"
+paginate = "3"
+theme = "mainroad"
+[Author]
+  name = "José Manuel Vela Fernández"
 
-[params]
-description = "ASIR"
+[Params]
+  description = "ASIR"
+  readmore = true
+  dateformat = "25-01-2019"
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[Params.widgets.social]
+  # Enable parts of social widget
+#  facebook = "username"
+#  twitter = "username"
+#  instagram = "username"
+#  linkedin = "username"
+#  telegram = "username"
+  github = "Velaa98"
+#  gitlab = "username"
+#  bitbucket = "username"
+#  email = "example@example.com"
+#  google_plus = "profileid"
