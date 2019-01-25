@@ -6,7 +6,8 @@ script:
   - hugo new site sitio && mkdir -p sitio/content/post
   - mv Blog/content/post/* sitio/content/post
   - mv Blog/config.toml sitio/
-  - cd sitio/themes && git clone https://github.com/nirocfz/arabica && cd ..
+#  - cd sitio/themes && git clone https://github.com/nirocfz/arabica && cd ..
+  - cd sitio/themes && git clone https://github.com/vimux/mainroad && cd ..
   - hugo -t arabica
   - rm -rf themes/arabica
 
